@@ -4,12 +4,13 @@
   list-style: none;
   text-decoration: none;
   box-sizing: border-box;
+  font-family: "Inter";
 }
 
 html,
 body {
   height: 100%;
-  font-family: "Helvetica", Arial, sans-serif;
+  font-family: "Inter";
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -27,11 +28,11 @@ footer ul li a {
   color: inherit;
 }
 
-.spacer-lg {
+.space-large {
   margin-top: 10rem !important;
 }
 
-.spacer-sm {
+.space-small {
   margin-top: 5rem !important;
 }
 
@@ -41,7 +42,7 @@ footer ul li a {
 
 .container {
   margin: 0 auto;
-  max-width: 1192px;
+  max-width: 95%;
   padding: 0 20px;
   margin-top: 110px;
 }
@@ -105,15 +106,15 @@ footer ul {
   color: inherit;
 }
 
-.cat-card a {
+.some-card a {
   color: inherit;
 }
 
-.cat-card-top a {
+.some-card-top a {
   font-size: 0.75rem;
 }
 
-.cat-card-mid a {
+.some-card-mid a {
   font-weight: 700;
 }
 
@@ -138,11 +139,11 @@ footer ul {
   padding: 0;
 }
 
-.cat-card-top h3 a {
+.some-card-top h3 a {
   font-size: 1.4rem;
 }
 
-.cat-card-top p a {
+.some-card-top p a {
   color: #9f9f9f;
 }
 
@@ -244,7 +245,7 @@ footer ul {
 }
 
 .bottom-nav {
-  background: #fd3;
+  background: yellow;
   min-height: 1.5rem;
   font-size: 0.75rem;
   padding-left: 1.2rem;
@@ -265,10 +266,10 @@ footer {
 }
 
 .footer-links {
-  padding: 2.652rem 0 1.75rem;
+  padding: 2.662rem 0 1.75rem;
 }
 
-.cat-card-bottom ul li {
+.some-card-bottom ul li {
   border-bottom: 1px solid rgba(134, 134, 134, 0.438);
   font-size: 0.9rem;
   color: #333a;
@@ -301,12 +302,12 @@ footer {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  color: #f42;
+  color: #f41;
   padding: 1rem 0;
 }
 
 .funding-header div {
-  font: 700 1.75rem/1.75rem Assistant, sans-serif;
+  font: 700 1.75rem/1.75rem Inter, serif;
 }
 
 .funding-header div i {
@@ -314,7 +315,7 @@ footer {
 }
 
 .funding-header ul li a:hover {
-  color: #111;
+  color: #111111;
 }
 
 .funding-header ul li:not(:last-child)::after {
@@ -324,8 +325,8 @@ footer {
 
 .columns {
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
+  flex-flow: row wrap;
 }
 
 .card {
@@ -369,7 +370,7 @@ footer {
   float: right;
 }
 
-.cat-card-top p {
+.some-card-top p {
   color: #fff;
   padding-bottom: 0.3rem;
   font-size: 0.8rem;
@@ -387,12 +388,12 @@ footer {
   font-weight: 200;
 }
 
-.cat-card-mid div:first-child {
+.some-card-mid div:first-child {
   padding: 0.5em;
   flex: 1 1 auto;
 }
 
-.cat-card-mid div:first-child p {
+.some-card-mid div:first-child p {
   font-size: 0.75rem;
   font-weight: 400;
   color: #f42;
@@ -441,7 +442,13 @@ footer {
 .banner-main {
   grid-area: banner-main;
   height: 400px;
-  background: linear-gradient(to bottom, rgba(40, 44, 71, 0.52), rgba(20, 14, 19, 0.73)), url(https://inventionland.com/wp-content/uploads/2019/04/Inventionland-iPhone-with-apps.jpg) no-repeat;
+  background: linear-gradient(
+      to bottom,
+      rgba(40, 44, 71, 0.52),
+      rgba(20, 14, 19, 0.73)
+    ),
+    url(https://inventionland.com/wp-content/uploads/2019/04/Inventionland-iPhone-with-apps.jpg)
+      no-repeat;
   background-size: cover;
   background-position: center;
   display: block;
@@ -482,14 +489,26 @@ footer {
 
 .banner-1 {
   grid-area: banner-1;
-  background: linear-gradient(to bottom, rgba(40, 44, 71, 0.52), rgba(20, 14, 19, 0.73)), url(https://home.sophos.com/en-us/medialibrary/Microsites/Home/SecurityCenter/ai-article-pic10.jpg) no-repeat;
+  background: linear-gradient(
+      to bottom,
+      rgba(40, 44, 71, 0.52),
+      rgba(20, 14, 19, 0.73)
+    ),
+    url(https://home.sophos.com/en-us/medialibrary/Microsites/Home/SecurityCenter/ai-article-pic10.jpg)
+      no-repeat;
   background-size: cover;
   background-position: center;
 }
 
 .banner-2 {
   grid-area: banner-2;
-  background: linear-gradient(to bottom, rgba(40, 44, 71, 0.52), rgba(20, 14, 19, 0.73)), url(https://cnet2.cbsistatic.com/img/IBsOTtgG8yow7n7ZK8Wppcxm84s=/1200x675/2020/02/11/6796988a-9879-4734-bca6-448b788f8de7/apple-app-store-icon.jpg) no-repeat;
+  background: linear-gradient(
+      to bottom,
+      rgba(40, 44, 71, 0.52),
+      rgba(20, 14, 19, 0.73)
+    ),
+    url(https://cnet2.cbsistatic.com/img/IBsOTtgG8yow7n7ZK8Wppcxm84s=/1200x675/2020/02/11/6796988a-9879-4734-bca6-448b788f8de7/apple-app-store-icon.jpg)
+      no-repeat;
   background-size: cover;
   background-position: center;
 }
@@ -562,57 +581,58 @@ footer {
   max-width: 31%;
 }
 
-.cat-card-top {
-  background: linear-gradient(to bottom, rgba(40, 44, 71, 0.52), rgba(20, 14, 19, 0.73)), url(./img/game.jpg);
+.some-card-top {
+  background: url(./resources/images/game.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   max-height: 280px;
   height: 280px;
   padding: 1em;
-  color: #fff;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
 }
 
-.apple-bg-img {
-  background: linear-gradient(to bottom, rgba(40, 44, 71, 0.52), rgba(20, 14, 19, 0.73)), url(./img/MacBook-USB-C-Feat-Img-730x365.jpg);
+.apple-background-image {
+  background: url(./resources/images/MacBook-USB-C-Feat-Img-730x365.jpg);
   max-height: 280px;
   height: 280px;
+  color: red;
 }
 
-.google-bg-img {
-  background: linear-gradient(to bottom, rgba(40, 44, 71, 0.52), rgba(20, 14, 19, 0.73)), url(./img/Snag_3c8ecdc-368x276.webp);
+.google-background-image {
+  background: url(./resources/images/Snag_3c8ecdc-368x276.webp);
   max-height: 280px;
   height: 280px;
+  color: grey;
 }
 
-.cat-card-top h3 {
+.some-card-top h3 {
   padding-right: 5em;
 }
 
-.cat-card-mid {
+.some-card-mid {
   display: flex;
-  background: #f420111d;
+  background: url(./resources/images/);
   line-height: 1.3rem;
   color: #f42;
 }
 
-.cat-card-img {
+.some-card-img {
   width: 96px;
   height: 96px;
   flex: 1 1 auto;
 }
 
-.cat-card-img img {
+.some-card-img img {
   height: 100%;
   width: 100%;
   min-width: 96px;
   object-fit: cover;
 }
 
-.cat-card-bottom li::marker {
+.some-card-bottom li::marker {
   color: #f42;
 }
 
