@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Responsive Design Update on Milestone 1
+# Responsive Design Update on Milestone 2
 
 We replicate the archived version of the website The Next Web. The main goal of the project is to apply responsive design with Media queries
 Added new content Categories, Latest news, and Latest deals supporting responisve behaviour for different devices.
