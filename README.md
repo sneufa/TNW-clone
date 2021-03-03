@@ -14,7 +14,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[The Next Web Clone](https://tnw-clone.vercel.app/) Updated version
+[The Next Web Clone](https://tnw-clone-6f16lro5o-sneufa.vercel.app/) Updated version
 
 ## Getting Started
 
