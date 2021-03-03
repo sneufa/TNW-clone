@@ -4,13 +4,13 @@
   list-style: none;
   text-decoration: none;
   box-sizing: border-box;
-  font-family: "Inter";
+  font-family: "Inter", Arial, Helvetica, sans-serif;
 }
 
 html,
 body {
   height: 100%;
-  font-family: "Inter";
+  font-family: "Inter", Arial, Helvetica, sans-serif;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -315,7 +315,7 @@ footer {
 }
 
 .funding-header ul li a:hover {
-  color: #111111;
+  color: black;
 }
 
 .funding-header ul li:not(:last-child)::after {
@@ -442,13 +442,7 @@ footer {
 .banner-main {
   grid-area: banner-main;
   height: 400px;
-  background: linear-gradient(
-      to bottom,
-      rgba(40, 44, 71, 0.52),
-      rgba(20, 14, 19, 0.73)
-    ),
-    url(https://inventionland.com/wp-content/uploads/2019/04/Inventionland-iPhone-with-apps.jpg)
-      no-repeat;
+  background: url(https://inventionland.com/wp-content/uploads/2019/04/Inventionland-iPhone-with-apps.jpg);
   background-size: cover;
   background-position: center;
   display: block;
@@ -489,26 +483,14 @@ footer {
 
 .banner-1 {
   grid-area: banner-1;
-  background: linear-gradient(
-      to bottom,
-      rgba(40, 44, 71, 0.52),
-      rgba(20, 14, 19, 0.73)
-    ),
-    url(https://home.sophos.com/en-us/medialibrary/Microsites/Home/SecurityCenter/ai-article-pic10.jpg)
-      no-repeat;
+  background: url(https://home.sophos.com/en-us/medialibrary/Microsites/Home/SecurityCenter/ai-article-pic10.jpg);
   background-size: cover;
   background-position: center;
 }
 
 .banner-2 {
   grid-area: banner-2;
-  background: linear-gradient(
-      to bottom,
-      rgba(40, 44, 71, 0.52),
-      rgba(20, 14, 19, 0.73)
-    ),
-    url(https://cnet2.cbsistatic.com/img/IBsOTtgG8yow7n7ZK8Wppcxm84s=/1200x675/2020/02/11/6796988a-9879-4734-bca6-448b788f8de7/apple-app-store-icon.jpg)
-      no-repeat;
+  background: url(https://cnet2.cbsistatic.com/img/IBsOTtgG8yow7n7ZK8Wppcxm84s=/1200x675/2020/02/11/6796988a-9879-4734-bca6-448b788f8de7/apple-app-store-icon.jpg);
   background-size: cover;
   background-position: center;
 }
