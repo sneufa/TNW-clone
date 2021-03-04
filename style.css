@@ -37,7 +37,7 @@ footer ul li a {
 }
 
 .spacer-bottom {
-  margin-bottom: 10rem;
+  margin-bottom: 10remfixed;
 }
 
 .container {
@@ -751,7 +751,7 @@ footer {
   }
 }
 
-@media screen and (min-width: 300px) and (max-width: 740px) {
+@media screen and (min-width: 300px) and (max-width: 800px) {
   .funding-header ul {
     display: flex;
     margin: 0;
