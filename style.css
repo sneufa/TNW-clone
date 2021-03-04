@@ -652,7 +652,7 @@ footer {
   }
 }
 
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 751px) {
   .top-nav {
     display: none;
   }
@@ -751,7 +751,7 @@ footer {
   }
 }
 
-@media screen and (min-width: 300px) and (max-width: 800px) {
+@media screen and (min-width: 300px) and (max-width: 750px) {
   .funding-header ul {
     display: flex;
     margin: 0;
